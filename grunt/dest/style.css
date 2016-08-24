@@ -1,0 +1,33 @@
+.precss {
+background: green
+}
+p{
+    border: 1px solid red;
+    border-radius:50% ;
+    width: 100px;
+    height: 100px;
+
+}
+.autoprefixertest {
+    width: 100px;
+
+    display: -webkit-inline-box;
+
+    display: -ms-inline-flexbox;
+
+    display: inline-flex;
+}
+.foo{
+    background: rgba(26,10,10,0.5);
+
+    display: -webkit-inline-box;
+
+    display: -ms-inline-flexbox;
+
+    display: inline-flex;
+    opacity: 0.96;
+
+}
+p{
+    overflow: hidden;
+}
