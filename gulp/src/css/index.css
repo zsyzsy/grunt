@@ -1,0 +1,26 @@
+@charset "UTF-8";
+:root {
+    --mainColor: #333;
+    --fontSize: 1.1rem;
+}
+body {
+    color: var(--mainColor);
+    font-size: calc(var(--fontSize)*2);
+}
+.display-flex {
+    display: flex;
+}
+.bg {
+    display: inline-block;
+    background-color: rgba(255,255,255,0.3);
+}
+.display-block {
+    display: inline-block;
+
+}
+span{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    display: flex;
+}
